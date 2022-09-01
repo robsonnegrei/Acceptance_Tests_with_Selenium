@@ -5,7 +5,12 @@ We'll need a few things to install for this section:
 - https://sites.google.com/a/chromium.org/chromedriver/downloads
 - behave (http://pythonhosted.org/behave/)
 - selenium (http://selenium-python.readthedocs.io/installation.html)
+- install requirements via pip install into the python Virtual env for this project by using requirements.txt file from source directory
 
+``` bash
+source venv/bin/activate
+pip install -r requirements.txt 
+```
 
 ## Running the tests
 
